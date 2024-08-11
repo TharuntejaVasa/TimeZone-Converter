@@ -1,0 +1,66 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #4a90e2;
+}
+
+/* Time Display */
+.time-zone-display {
+  margin-top: 20px;
+}
+
+.time-zone-display p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.time-zone-display span {
+  font-weight: bold;
+  color: #333;
+}
+
+.time-zone-display strong {
+  color: #4a90e2;
+}

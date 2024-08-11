@@ -1,0 +1,18 @@
+.time-zone-display {
+    margin-top: 20px;
+  }
+  
+  .time-zone-display p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .time-zone-display span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .time-zone-display strong {
+    color: #4a90e2;
+  }
+  
